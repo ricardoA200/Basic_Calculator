@@ -1,0 +1,3 @@
+C:/Users/riad6/gtkmm_calculator/build/CMakeFiles/calculator.dir
+C:/Users/riad6/gtkmm_calculator/build/CMakeFiles/edit_cache.dir
+C:/Users/riad6/gtkmm_calculator/build/CMakeFiles/rebuild_cache.dir

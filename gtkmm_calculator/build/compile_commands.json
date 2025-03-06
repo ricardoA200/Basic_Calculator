@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/riad6/gtkmm_calculator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/calculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\calculator.dir\\main.cpp.obj -c C:\\Users\\riad6\\gtkmm_calculator\\main.cpp",
+  "file": "C:/Users/riad6/gtkmm_calculator/main.cpp",
+  "output": "CMakeFiles/calculator.dir/main.cpp.obj"
+}
+]

@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Define the project
+project(CalculatorApp)
+
+# Find GTKmm package using pkg-config
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GTKMM gtkmm-3.0 REQUIRED)
+
+# Include GTKmm directories
+include_directories(${GTKMM_INCLUDE_DIRS})
+
+# Set the C++ standard
+set(CMAKE_CXX_STANDARD 14)
+
+# Add the executable target
+add_executable(calculator main.cpp)
+
+# Link the GTKmm libraries
+target_link_libraries(calculator ${GTKMM_LIBRARIES})
+
+# If you are using pkg-config to find gtkmm
+target_link_libraries(calculator ${GTKMM_LDFLAGS})
